@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8575575702448015669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 126588966041236651, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e2f594ab28d5c4340b5983c37fd5c82a, type: 3}
+    - target: {fileID: 1685299187011469842, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_TagString
+      value: MuroT
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.68467015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114863645695771994, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404235870955503884, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: m_Name
+      value: muro triangulo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
