@@ -23,6 +23,8 @@ public class Jogador : MonoBehaviour
 
     public GameObject fimDeJogo;
 
+    public Text pontosFinais;
+
     private void Start()
     {
         highscore = PlayerPrefs.GetFloat("HIGHSCORE");
@@ -35,6 +37,7 @@ public class Jogador : MonoBehaviour
 
         var pontosArredondado = Mathf.FloorToInt(pontos);
         pontosText.text = pontosArredondado.ToString();
+        pontosFinais.text = pontosArredondado.ToString();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -56,21 +59,6 @@ public class Jogador : MonoBehaviour
 
             Time.timeScale = 0;
         }
-    }
-
-    public void BotaoBola()
-    {
-        
-    }
-
-    public void BotaoQuadrado()
-    {
-        
-    }
-
-    public void BotaoTriangulo()
-    {
-        
     }
 
 }

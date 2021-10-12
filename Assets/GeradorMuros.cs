@@ -22,4 +22,5 @@ public class GeradorMuros : MonoBehaviour
         var muroPrefab = muroPrefabs[indiceAleatorio];
         Instantiate(muroPrefab, transform.position, Quaternion.identity);
     }
+
 }
