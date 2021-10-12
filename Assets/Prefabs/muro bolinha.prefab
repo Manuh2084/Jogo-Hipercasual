@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direcao: {x: -1, y: 0}
+  tipoMuro: 99
 --- !u!60 &1175442242440977362
 PolygonCollider2D:
   m_ObjectHideFlags: 0

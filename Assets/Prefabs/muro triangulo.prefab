@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7062545984671947210, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
+      propertyPath: tipoMuro
+      value: 116
+      objectReference: {fileID: 0}
     - target: {fileID: 126588966041236651, guid: 10fe5c9911fdf484786d7f1ec4b1940a, type: 3}
       propertyPath: m_Sprite
       value: 

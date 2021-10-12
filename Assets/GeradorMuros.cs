@@ -10,6 +10,8 @@ public class GeradorMuros : MonoBehaviour
 
     public float delayEntreMuros;
 
+    public Sistema sistema;
+
     private void Start()
     {
         InvokeRepeating("GerarMuro", delayInicial, delayEntreMuros);
@@ -20,7 +22,9 @@ public class GeradorMuros : MonoBehaviour
         var quantidadeMuros = muroPrefabs.Length;
         var indiceAleatorio = Random.Range(0, quantidadeMuros);
         var muroPrefab = muroPrefabs[indiceAleatorio];
-        Instantiate(muroPrefab, transform.position, Quaternion.identity);
+        var instancia = Instantiate(muroPrefab, transform.position, Quaternion.identity);
+        sistema.Muros.Enqueue(instancia);
+        sistema.TipoMuros.Enqueue(instancia.GetComponent<Movimentar>().tipoMuro);
     }
 
 }

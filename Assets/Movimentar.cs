@@ -7,6 +7,8 @@ public class Movimentar : MonoBehaviour
 
     private Jogo jogoScript;
 
+    public char tipoMuro;
+
     private void Start()
     {
         jogoScript = GameObject.Find("Jogo").GetComponent<Jogo>();
