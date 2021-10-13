@@ -4,28 +4,26 @@ using UnityEngine;
 
 public class BolinhaGirando : MonoBehaviour
 {
-    [SerializeField] private float timer;
-    private float velocidade;
-    private bool aumentar;
+
+    public float velocidade;
+    public float modVel;
+    public float velocidadeMax;
 
     void Start()
     {
-        velocidade = 100;
-        aumentar = true;
+
     }
 
-    // Update is called once per frame
+
     void Update()
     {
+        velocidade = Mathf.Clamp(
+            velocidade + modVel * Time.deltaTime,
+            0,
+            velocidadeMax
+        );
+
         transform.Rotate(Vector3.back * velocidade * Time.deltaTime , Space.Self);
-        if (aumentar)
-            StartCoroutine(AumentarVelocidade());
     }
-    IEnumerator AumentarVelocidade()
-    {
-        aumentar = false;
-        yield return new WaitForSeconds(timer);
-        velocidade += velocidade /10;
-        aumentar = true;
-    }
+
 }

@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Jogo : MonoBehaviour
 {
-    public float modificadorVelocidade = 1f;
+    public float modificadorVelocidade;
 
-    public float velocidade = 4.5f;
+    public float velocidade;
 
-    public float velocidadeMaxima = 10f;
+    public float velocidadeMaxima;
 
     public GameObject pauseButton;
 

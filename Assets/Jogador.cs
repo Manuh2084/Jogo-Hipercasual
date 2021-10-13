@@ -23,6 +23,8 @@ public class Jogador : MonoBehaviour
 
     public GameObject fimDeJogo;
 
+    public GameObject pauseButton;
+
     public Text pontosFinais;
 
     private void Start()
@@ -56,6 +58,8 @@ public class Jogador : MonoBehaviour
             botaoReiniciar.SetActive(true);
 
             fimDeJogo.SetActive(true);
+
+            pauseButton.SetActive(false);
 
             Time.timeScale = 0;
         }
