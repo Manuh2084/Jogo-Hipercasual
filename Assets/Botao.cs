@@ -46,7 +46,7 @@ public class Botao : MonoBehaviour
 
     public void UpdateBotao()
     {
-        if (mutado == false)
+        if (mutado == true)
         {
             toggleOnandmusic.enabled = true;
             toggleOffandmusic.enabled = false;

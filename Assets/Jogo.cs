@@ -26,6 +26,8 @@ public class Jogo : MonoBehaviour
 
     public void ReiniciarJogo()
     {
+	pauseButton.SetActive(false);
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         Time.timeScale = 1;
