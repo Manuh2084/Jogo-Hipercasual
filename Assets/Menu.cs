@@ -19,6 +19,7 @@ public class Menu : MonoBehaviour
     public void ChamaCenaDoJogo()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        Time.timeScale = 1;
     }
 
     public void ChamaMenuInicial()
